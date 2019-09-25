@@ -10,7 +10,7 @@ spring:
      username: root
      password: root
    jpa:
-     show-sql: true
+     show-sql: true 
    rabbitmq: 
      host: 192.168.223.139
      username: guest
