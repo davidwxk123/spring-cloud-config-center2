@@ -15,7 +15,6 @@ spring:
      host: 192.168.223.139
      username: guest
      password: guest
-	 
 eureka:
   client:
     service-url:
