@@ -21,7 +21,7 @@ spring:
          InputMessage:
             contentType: text/plain
          OutputMessage:
-            contentType: text/plain
+            contentType: text/plain 
 eureka:
   client:
     service-url:
