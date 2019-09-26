@@ -14,13 +14,7 @@ spring:
      host: 192.168.223.139
      username: guest
      password: guest
-   cloud:
-     stream: 
-       bindings: 
-         InputMessage:
-            contentType: text/plain
-         OutputMessage:
-            contentType: text/plain 
+     port: 5672
 eureka:
   client:
     service-url:
