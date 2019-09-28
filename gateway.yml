@@ -9,6 +9,9 @@ spring:
       username: guest
       password: guest
       port: 5672
+zuul: 
+   routes:
+     product-server: /productService/**
 management: 
    endpoints: 
      web: 
