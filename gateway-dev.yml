@@ -4,10 +4,3 @@ server:
 spring:
   application:
       name: gateway-zuul
-
-eureka:
-  client:
-     service-url:
-        defaultZone: localhost:8762/eureka
-  instance:
-     instance-id: ${spring.application.name}:${spring.application.instance_id:${server.port}}
